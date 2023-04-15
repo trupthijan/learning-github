@@ -1,1 +1,25 @@
-Hello Git
+# Initialize Git
+git init
+
+# Configure Credentials for GitHub (One-time)
+git config --global user.name = "harsha-commit"
+git config --global email = "harshavardhan.bashavathini@gmail.com"
+
+# Know the status of the files
+git status
+
+# Add all the files to Staging Area
+git add .
+
+# Commit the changes
+git commit -m "This is a Commit Message"
+
+# Push the changes to GitHub
+git push
+
+# Pull the changes from GitHube
+git pull
+
+# Copy a project
+git clone "https://github.com/trupthijan/learning-github.git"
+
