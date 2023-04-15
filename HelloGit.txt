@@ -15,10 +15,12 @@ git add .
 git commit -m "This is a Commit Message"
 
 # Push the changes to GitHub
-git push
+git push (enough, if both Git and GitHub branches are main)
+git push (is equivlent to git push origin master)
+git push origin master
 
 # Pull the changes from GitHube
-git pull
+git pull origin master/main
 
 # Copy a project
 git clone "https://github.com/trupthijan/learning-github.git"
